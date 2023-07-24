@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		266C1FFA2A6E593000E41218 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266C1FF92A6E593000E41218 /* AppDelegate.swift */; };
+		266C1FFC2A6E593000E41218 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266C1FFB2A6E593000E41218 /* SceneDelegate.swift */; };
+		266C1FFE2A6E593000E41218 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266C1FFD2A6E593000E41218 /* ViewController.swift */; };
+		266C20012A6E593000E41218 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 266C1FFF2A6E593000E41218 /* Main.storyboard */; };
+		266C20032A6E593100E41218 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 266C20022A6E593100E41218 /* Assets.xcassets */; };
+		266C20062A6E593100E41218 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 266C20042A6E593100E41218 /* LaunchScreen.storyboard */; };
+		266C20112A6E593100E41218 /* EggAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266C20102A6E593100E41218 /* EggAppTests.swift */; };
+		266C201B2A6E593100E41218 /* EggAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266C201A2A6E593100E41218 /* EggAppUITests.swift */; };
+		266C201D2A6E593100E41218 /* EggAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266C201C2A6E593100E41218 /* EggAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		266C200D2A6E593100E41218 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 266C1FEE2A6E593000E41218 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 266C1FF52A6E593000E41218;
+			remoteInfo = EggApp;
+		};
+		266C20172A6E593100E41218 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 266C1FEE2A6E593000E41218 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 266C1FF52A6E593000E41218;
+			remoteInfo = EggApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		266C1FF62A6E593000E41218 /* EggApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EggApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		266C1FF92A6E593000E41218 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		266C1FFB2A6E593000E41218 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		266C1FFD2A6E593000E41218 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		266C20002A6E593000E41218 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		266C20022A6E593100E41218 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		266C20052A6E593100E41218 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		266C20072A6E593100E41218 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		266C200C2A6E593100E41218 /* EggAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EggAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		266C20102A6E593100E41218 /* EggAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EggAppTests.swift; sourceTree = "<group>"; };
+		266C20162A6E593100E41218 /* EggAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EggAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		266C201A2A6E593100E41218 /* EggAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EggAppUITests.swift; sourceTree = "<group>"; };
+		266C201C2A6E593100E41218 /* EggAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EggAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		266C1FF32A6E593000E41218 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		266C20092A6E593100E41218 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		266C20132A6E593100E41218 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		266C1FED2A6E593000E41218 = {
+			isa = PBXGroup;
+			children = (
+				266C1FF82A6E593000E41218 /* EggApp */,
+				266C200F2A6E593100E41218 /* EggAppTests */,
+				266C20192A6E593100E41218 /* EggAppUITests */,
+				266C1FF72A6E593000E41218 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		266C1FF72A6E593000E41218 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				266C1FF62A6E593000E41218 /* EggApp.app */,
+				266C200C2A6E593100E41218 /* EggAppTests.xctest */,
+				266C20162A6E593100E41218 /* EggAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		266C1FF82A6E593000E41218 /* EggApp */ = {
+			isa = PBXGroup;
+			children = (
+				266C1FF92A6E593000E41218 /* AppDelegate.swift */,
+				266C1FFB2A6E593000E41218 /* SceneDelegate.swift */,
+				266C1FFD2A6E593000E41218 /* ViewController.swift */,
+				266C1FFF2A6E593000E41218 /* Main.storyboard */,
+				266C20022A6E593100E41218 /* Assets.xcassets */,
+				266C20042A6E593100E41218 /* LaunchScreen.storyboard */,
+				266C20072A6E593100E41218 /* Info.plist */,
+			);
+			path = EggApp;
+			sourceTree = "<group>";
+		};
+		266C200F2A6E593100E41218 /* EggAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				266C20102A6E593100E41218 /* EggAppTests.swift */,
+			);
+			path = EggAppTests;
+			sourceTree = "<group>";
+		};
+		266C20192A6E593100E41218 /* EggAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				266C201A2A6E593100E41218 /* EggAppUITests.swift */,
+				266C201C2A6E593100E41218 /* EggAppUITestsLaunchTests.swift */,
+			);
+			path = EggAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		266C1FF52A6E593000E41218 /* EggApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 266C20202A6E593200E41218 /* Build configuration list for PBXNativeTarget "EggApp" */;
+			buildPhases = (
+				266C1FF22A6E593000E41218 /* Sources */,
+				266C1FF32A6E593000E41218 /* Frameworks */,
+				266C1FF42A6E593000E41218 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EggApp;
+			productName = EggApp;
+			productReference = 266C1FF62A6E593000E41218 /* EggApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		266C200B2A6E593100E41218 /* EggAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 266C20232A6E593200E41218 /* Build configuration list for PBXNativeTarget "EggAppTests" */;
+			buildPhases = (
+				266C20082A6E593100E41218 /* Sources */,
+				266C20092A6E593100E41218 /* Frameworks */,
+				266C200A2A6E593100E41218 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				266C200E2A6E593100E41218 /* PBXTargetDependency */,
+			);
+			name = EggAppTests;
+			productName = EggAppTests;
+			productReference = 266C200C2A6E593100E41218 /* EggAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		266C20152A6E593100E41218 /* EggAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 266C20262A6E593200E41218 /* Build configuration list for PBXNativeTarget "EggAppUITests" */;
+			buildPhases = (
+				266C20122A6E593100E41218 /* Sources */,
+				266C20132A6E593100E41218 /* Frameworks */,
+				266C20142A6E593100E41218 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				266C20182A6E593100E41218 /* PBXTargetDependency */,
+			);
+			name = EggAppUITests;
+			productName = EggAppUITests;
+			productReference = 266C20162A6E593100E41218 /* EggAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		266C1FEE2A6E593000E41218 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					266C1FF52A6E593000E41218 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					266C200B2A6E593100E41218 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 266C1FF52A6E593000E41218;
+					};
+					266C20152A6E593100E41218 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 266C1FF52A6E593000E41218;
+					};
+				};
+			};
+			buildConfigurationList = 266C1FF12A6E593000E41218 /* Build configuration list for PBXProject "EggApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 266C1FED2A6E593000E41218;
+			productRefGroup = 266C1FF72A6E593000E41218 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				266C1FF52A6E593000E41218 /* EggApp */,
+				266C200B2A6E593100E41218 /* EggAppTests */,
+				266C20152A6E593100E41218 /* EggAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		266C1FF42A6E593000E41218 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				266C20062A6E593100E41218 /* LaunchScreen.storyboard in Resources */,
+				266C20032A6E593100E41218 /* Assets.xcassets in Resources */,
+				266C20012A6E593000E41218 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		266C200A2A6E593100E41218 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		266C20142A6E593100E41218 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		266C1FF22A6E593000E41218 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				266C1FFE2A6E593000E41218 /* ViewController.swift in Sources */,
+				266C1FFA2A6E593000E41218 /* AppDelegate.swift in Sources */,
+				266C1FFC2A6E593000E41218 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		266C20082A6E593100E41218 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				266C20112A6E593100E41218 /* EggAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		266C20122A6E593100E41218 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				266C201D2A6E593100E41218 /* EggAppUITestsLaunchTests.swift in Sources */,
+				266C201B2A6E593100E41218 /* EggAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		266C200E2A6E593100E41218 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 266C1FF52A6E593000E41218 /* EggApp */;
+			targetProxy = 266C200D2A6E593100E41218 /* PBXContainerItemProxy */;
+		};
+		266C20182A6E593100E41218 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 266C1FF52A6E593000E41218 /* EggApp */;
+			targetProxy = 266C20172A6E593100E41218 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		266C1FFF2A6E593000E41218 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				266C20002A6E593000E41218 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		266C20042A6E593100E41218 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				266C20052A6E593100E41218 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		266C201E2A6E593100E41218 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		266C201F2A6E593100E41218 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		266C20212A6E593200E41218 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 89HTJNR8K2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EggApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mrityunjay.EggApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		266C20222A6E593200E41218 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 89HTJNR8K2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EggApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mrityunjay.EggApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		266C20242A6E593200E41218 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 89HTJNR8K2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mrityunjay.EggAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EggApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EggApp";
+			};
+			name = Debug;
+		};
+		266C20252A6E593200E41218 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 89HTJNR8K2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mrityunjay.EggAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EggApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EggApp";
+			};
+			name = Release;
+		};
+		266C20272A6E593200E41218 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 89HTJNR8K2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mrityunjay.EggAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EggApp;
+			};
+			name = Debug;
+		};
+		266C20282A6E593200E41218 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 89HTJNR8K2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mrityunjay.EggAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EggApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		266C1FF12A6E593000E41218 /* Build configuration list for PBXProject "EggApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				266C201E2A6E593100E41218 /* Debug */,
+				266C201F2A6E593100E41218 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		266C20202A6E593200E41218 /* Build configuration list for PBXNativeTarget "EggApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				266C20212A6E593200E41218 /* Debug */,
+				266C20222A6E593200E41218 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		266C20232A6E593200E41218 /* Build configuration list for PBXNativeTarget "EggAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				266C20242A6E593200E41218 /* Debug */,
+				266C20252A6E593200E41218 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		266C20262A6E593200E41218 /* Build configuration list for PBXNativeTarget "EggAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				266C20272A6E593200E41218 /* Debug */,
+				266C20282A6E593200E41218 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 266C1FEE2A6E593000E41218 /* Project object */;
+}
