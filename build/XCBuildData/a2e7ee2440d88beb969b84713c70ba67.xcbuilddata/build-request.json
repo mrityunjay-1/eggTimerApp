@@ -1,0 +1,43 @@
+{
+  "buildCommand" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : false,
+    "targets" : null
+  },
+  "configuredTargets" : [
+    {
+      "guid" : "757b1510e14798362f458693c0e4a3e1dcde46f9e097e392dd014f8bb07f74d6"
+    }
+  ],
+  "containerPath" : "/Users/mrityunjay/XCodeProjects/EggApp/EggApp.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "",
+      "buildProductsPath" : "",
+      "derivedDataPath" : "/Users/mrityunjay/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/mrityunjay/Library/Developer/Xcode/DerivedData/EggApp-hebklkrldnvhqdeqshccvxeqrkyw/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/mrityunjay/Library/Developer/Xcode/DerivedData/EggApp-hebklkrldnvhqdeqshccvxeqrkyw/Index.noindex/PrecompiledHeaders",
+      "pchPath" : ""
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO"
+        }
+      }
+    }
+  },
+  "qos" : "default",
+  "schemeCommand" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : true,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

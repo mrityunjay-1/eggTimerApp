@@ -1,0 +1,6 @@
+Target dependency graph (3 targets)
+EggApp in EggApp, no dependencies
+EggAppTests in EggApp, depends on:
+EggApp in EggApp (explicit)
+EggAppUITests in EggApp, depends on:
+EggApp in EggApp (explicit)

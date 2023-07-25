@@ -1,0 +1,8 @@
+version: "Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)"
+options: "66509ab562682bb299b2ee19740ab94b1d8b221e265a72590294572875697cc5"
+build_start_time: [1690182071, 437165000]
+build_end_time: [1690182071, 504996000]
+inputs:
+  "/Users/mrityunjay/XCodeProjects/EggApp/EggApp/AppDelegate.swift": !private [1690182064, 671133403]
+  "/Users/mrityunjay/XCodeProjects/EggApp/EggApp/SceneDelegate.swift": !private [1690182064, 675723005]
+  "/Users/mrityunjay/XCodeProjects/EggApp/EggApp/ViewController.swift": !private [1690182064, 676971382]
